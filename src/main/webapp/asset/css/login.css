@@ -1,0 +1,32 @@
+body {
+    background-color: #fdfafa;
+}
+
+.container {
+    margin-top: 10rem;
+}
+
+.card {
+    width: 30%;
+    margin: auto auto;
+    min-width: 400px;
+    border-radius: 5px;
+}
+
+.container .card h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container .card .card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.container .card .card-header a {
+    color: gray;
+}
+
+.container .card .form-group .form-message {
+    color: red;
+}

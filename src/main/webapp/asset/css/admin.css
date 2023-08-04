@@ -1,0 +1,146 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 10px;
+    background-color: #f6f3f3;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(232, 225, 225);
+    z-index: 999;
+}
+
+.nav .nav-icon {
+    cursor: pointer;
+}
+
+.nav .nav-contents {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #f6f3f3;
+}
+
+.nav .nav-contents ul {
+    padding: 0 0;
+}
+
+.nav .nav-contents li{
+    list-style: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.nav .nav-contents li:hover {
+    background-color: rgb(229, 214, 214);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper aside {
+    background-color: #f6f3f3;
+    width: 18%;
+    border-right: 1px solid rgb(232, 225, 225);
+    position: fixed;
+    top: 45px;
+    left: 0;
+    bottom: 0;
+}
+
+.wrapper #form-contents-btn {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper #form-contents-btn :first-child {
+    margin-right: 5px;
+}
+
+.wrapper #form-contents-btn :last-child {
+    margin-left: 50px;
+}
+
+.wrapper .active {
+    background-color: white;
+}
+
+.wrapper .aside-child {
+    padding-left: 30px;
+}
+
+.wrapper aside ul{
+    padding-left: 0;
+    margin: 0 0;
+    cursor: pointer;
+}
+
+.wrapper aside ul li:first-child {
+    border-top: 1px solid rgb(232, 225, 225);
+}
+
+.wrapper aside ul li:hover {
+    background-color: white;
+}
+
+.wrapper aside ul li{
+    border-bottom: 1px solid rgb(232, 225, 225);
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    color: rgb(66, 66, 193);
+}
+
+.wrapper .container-fluid {
+    margin-left: 18%;
+    margin-top: 54px;
+}
+
+.wrapper .container-fluid h2 {
+    margin: 20px 0 0 0;
+    font-weight: 450;
+}
+
+.wrapper .container-fluid .table-action {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.wrapper .container-fluid .main-searhc {
+    display: flex;
+}
+
+.wrapper .container-fluid .searchEmployee {
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+
+.wrapper .container-fluid .form-message {
+    color: red;
+}
+
+.wrapper .container-fluid .card-body .form-group label {
+    font-weight: 700;
+}
+
+.wrapper .container-fluid .card-body .form-group label span {
+    color: red;
+}
+
+.wrapper .container-fluid .card-body .form-group .gender-input {
+    display: flex;
+}
+
+.wrapper .container-fluid .card-body .form-group .gender-input input {
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.wrapper .container-fluid .card-body i {
+    margin-right: 6px;
+}
+
+.wrapper .container-fluid .card-body button {
+    color: white;
+}
